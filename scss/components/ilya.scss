@@ -1,0 +1,362 @@
+.news-blocks {
+  margin: 75px 0 100px;
+  @include for-size(1024px) {
+    margin: 35px 0 35px;
+  }
+
+  .wrap {
+    @include for-size(1024px) {
+      padding: 0 0 80px;
+    }
+
+    > a.btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+  .news-post {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 293px;
+
+    &:first-child {
+      width: 565px;
+
+      .thumb {
+        position: relative;
+        height: 355px;
+      }
+
+      .info {
+        p {
+          display: block;
+        }
+      }
+
+      @include for-size(767px) {
+        .thumb {
+          height: 276px;
+        }
+        .info {
+          p {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .thumb {
+      position: relative;
+      height: 276px;
+      display: block;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #222222;
+        padding: 10px 20px;
+        border-radius: 0 0 20px 0;
+        color: #cfcfcf;
+        font-size: 14px;
+      }
+    }
+
+    .info {
+      padding: 25px 28px;
+      background: linear-gradient(
+                      135deg,
+                      rgba(201, 217, 250, 1) 0%,
+                      rgba(240, 240, 240, 1) 100%
+      );
+
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 0 0 15px;
+
+        a {
+          color: #222222;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        &:hover {
+          a {
+            color: #0055fe;
+          }
+        }
+      }
+
+      > div {
+        a {
+          span {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            @include transition();
+          }
+
+          svg {
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          &:hover {
+            text-decoration: none;
+
+            span {
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+
+      p {
+        display: none;
+        color: #676767;
+        font-size: 16px;
+        line-height: 28px;
+        @include for-size(767px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .top-news-block {
+    margin-bottom: 30px;
+    @include for-size(767px) {
+      margin-bottom: 70px;
+    }
+
+    .text-news-block {
+      max-width: 522px;
+      @include for-size(767px) {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.swiper-arrow {
+  width: 110px;
+  position: relative;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #414141;
+    border-radius: 50%;
+    @include transition();
+
+    &:after {
+      font-size: 18px;
+      color: #0055fe;
+      @include transition();
+    }
+
+    &:hover {
+      background: #0055fe;
+
+      &:after {
+        color: #fff;
+      }
+    }
+  }
+
+  .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+}
+
+.events-slider-wrap {
+  margin: 100px 0 100px;
+  @include for-size(1024px) {
+    margin: 35px 0 35px;
+  }
+
+  .swiper {
+    height: 1100px;
+    padding-bottom: 100px;
+    margin-bottom: 25px;
+    @include for-size(767px) {
+      height: auto;
+      padding-bottom: 65px;
+    }
+  }
+
+  .swiper-slide {
+    height: calc((100% - 30px) / 2) !important;
+  }
+
+  .event-post {
+    border-radius: 25px;
+    overflow: hidden;
+    // width: 293px;
+    display: flex;
+    flex-direction: column;
+
+    .thumb {
+      position: relative;
+      height: 160px;
+      display: block;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .event-date {
+        position: absolute;
+        left: 5px;
+        text-align: center;
+        top: 5px;
+        padding: 16px 10px;
+        background: #C9D9FA;
+        border-radius: 17px;
+        min-width: 73px;
+
+        .day {
+          font-style: normal;
+          font-weight: 600;
+          display: block;
+          font-size: 22px;
+          line-height: 21px;
+          letter-spacing: 0.03em;
+          color: #222222;
+
+        }
+
+        .month {
+          font-weight: 400;
+          display: block;
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0.03em;
+          color: #222222;
+        }
+      }
+    }
+
+    .info {
+      flex: 1;
+      position: relative;
+      padding: 25px 28px 10px 28px;
+      overflow-y: auto;
+      background: linear-gradient(
+                      135deg,
+                      rgba(201, 217, 250, 1) 0%,
+                      rgba(240, 240, 240, 1) 100%
+      );
+
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 0 0 15px;
+
+        a {
+          color: #222222;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        &:hover {
+          a {
+            color: #0055fe;
+          }
+        }
+      }
+
+      p {
+        display: none;
+        color: #676767;
+        font-size: 16px;
+        line-height: 28px;
+        @include for-size(767px) {
+          display: block;
+        }
+      }
+
+      .event-bottom {
+        padding: 25px 0;
+        position: static;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        align-items: flex-end;
+
+        .loc-link {
+          font-size: 16px;
+          line-height: 28px;
+          color: #676767;
+          position: relative;
+          padding-left: 20px;
+          padding-right: 40px;
+          flex: 1;
+
+          svg {
+            position: absolute;
+            top: 4px;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .title-wrap {
+    .eventtitle {
+      max-width: 440px;
+    }
+
+    .eventtext {
+      margin-bottom: 10px;
+
+      div {
+        flex-basis: 32%;
+        margin-bottom: 20px;
+        @include for-size(1024px) {
+          flex-basis: 100%;
+        }
+      }
+
+      p {
+        color: #676767;
+      }
+    }
+  }
+
+  .btn-wrap {
+    justify-content: flex-end;
+    @include for-size(767px) {
+      justify-content: center;
+    }
+  }
+}
+
+.event-pop {
+  a {
+    word-break: break-all;
+  }
+}

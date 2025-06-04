@@ -1,0 +1,54 @@
+@import '_mixins';
+//web page width
+$notebook: 1400px;
+$row: 1200px;
+$row1720: 1720px;
+$md: 1024px;
+$sm: 768px;
+$xs: 480px;
+//main color
+$a: #0055FE;
+//second color
+$b: #f1b820;
+//link color
+$link: $a;
+// button color 
+$btn: $a;
+
+$border: #cccccc;
+$text: #333333;
+$menu: $a;
+
+$inputH: 67px;
+
+//social media color
+$facebook: #3b5993;
+$twitter: #55acee;
+$instagram: #181818;
+$linkedin: #0177b5;
+$youtube: #f80000;
+$pinterest: #bd081c;
+$vimeo: #1bb7ea;
+$google_plus: #dd4c39;
+$yelp: #d32323;
+
+/* FONTS
+   ========================================================================== */
+//custom icon fonts
+// @include declare-font('font-name', 'font-layout', font-weight, font-style);
+$font: 'Inter', Helvetica, Arial, sans-serif;
+/* MAIN  FILES
+   ========================================================================== */
+@import 'components/reset';
+//flexbox
+@import 'components/flexo';
+//woocommerce basic style
+//@import 'components/11_woocommerce';
+// global elements (buttons, etc..)
+@import 'components/global';
+// style for custom page
+@import 'components/p';
+@import 'components/vd';
+@import 'components/vt';
+@import 'components/ilya';
+@import 'components/pages';

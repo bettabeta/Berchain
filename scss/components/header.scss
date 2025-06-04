@@ -1,0 +1,62 @@
+// Header specific styles
+body header {
+    .wrap1720 {
+        border-radius: unset !important;
+        background: #1A1A1A !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .wrap1720 .bg {
+        display: none !important;
+    }
+
+    .header {
+        background: none !important;
+        padding: 0 !important;
+        position: relative;
+        z-index: 100;
+
+        #logo {
+            img {
+                max-height: 40px;
+                width: auto;
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                gap: 30px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-weight: 500;
+                        transition: color 0.3s ease;
+
+                        &:hover {
+                            color: $a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header .wrap1720 {
+        background: #1A1A1A !important;
+        padding: 0 !important;
+        border-radius: unset !important;
+    }
+
+    .header .header-box {
+        padding: 0 !important;
+        justify-content: space-between;
+    }
+} 

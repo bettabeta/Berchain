@@ -1,0 +1,60 @@
+{
+    "packages": [
+        {
+            "name": "om/icalparser",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OzzyCzech/icalparser.git",
+                "reference": "5830e952f9b72d8a8014582fab036d9c19ed22f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OzzyCzech/icalparser/zipball/5830e952f9b72d8a8014582fab036d9c19ed22f9",
+                "reference": "5830e952f9b72d8a8014582fab036d9c19ed22f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1.0"
+            },
+            "require-dev": {
+                "nette/tester": "^2.5.1"
+            },
+            "suggest": {
+                "ext-dom": "for timezone tool"
+            },
+            "time": "2023-12-12T09:47:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Ožana",
+                    "email": "roman@ozana.cz"
+                }
+            ],
+            "description": "Simple iCal parser",
+            "keywords": [
+                "calendar",
+                "ical",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/OzzyCzech/icalparser/issues",
+                "source": "https://github.com/OzzyCzech/icalparser/tree/v3.1.0"
+            },
+            "install-path": "../om/icalparser"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

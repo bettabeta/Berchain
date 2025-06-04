@@ -1,0 +1,10 @@
+05/15/24 1:10:30: main.scss - unclosed block: failed at `` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/vd.scss on line 126, at column 4
+05/15/24 1:43:23: main.scss - parse error: failed at `background;` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/vd.scss on line 132, at column 5
+05/15/24 1:43:32: main.scss - parse error: failed at `background;` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/vd.scss on line 132, at column 5
+05/17/24 8:21:36: main.scss - parse error: failed at `&` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/vd.scss on line 547, at column 7
+05/17/24 8:21:37: main.scss - parse error: failed at `&` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/vd.scss on line 547, at column 7
+05/17/24 10:27:01: main.scss - parse error: failed at `font-weight: ;` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/p.scss on line 75, at column 21
+05/17/24 10:47:18: main.scss - unclosed block: failed at `` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/ilya.scss on line 232, at column 2
+05/17/24 12:54:36: main.scss - unclosed block: failed at `` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/p.scss on line 62, at column 0
+05/17/24 1:48:28: main.scss - parse error: failed at `padding-bottom: ;` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/p.scss on line 585, at column 29
+05/17/24 1:48:36: main.scss - parse error: failed at `padding-bottom: ;` /usr/local/www/apache24/data/berchain.s7.devpreviewr.com/wp-content/themes/berchain/scss/components/p.scss on line 585, at column 29
